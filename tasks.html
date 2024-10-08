@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div class="logo">
+            <img src="Farm Cove Horizontal Logo.png" alt="Farm Cove Logo"> <!-- Placeholder for the logo -->
+        </div>
+        <div class="nav-icons">
+            <img src="magnifying glass.png" alt="Search" class="icon">
+            <img src="bell.png" alt="Notifications" class="icon">
+            <img src="avatar.png" alt="User" class="icon">
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="tabs">
+        <a href="index.html">Home</a>
+        <a href="approvals.html">Approvals</a>
+        <a href="transactions-reimbursement.html">Transactions</a>
+        <a href="tasks.html" class="active">Tasks</a>
+        <a href="film-details.html">Film Details</a>
+        <a href="budget-overview.html">Budget Overview</a>
+        <a href="reporting.html">Reports</a>
+        <a href="schedule-payment.html">Schedule Payment</a>
+        <a href="pay.html">Pay</a>
+    </div>
+
+    <!-- Task Section -->
+    <div class="task-container">
+        <!-- Task Group 1 -->
+        <div class="task-group">
+            <h2>Project Onboarding - Project Title (7/16)</h2>
+
+            <div class="task-list">
+                <div class="task-section">
+                    <h3>Project Details (3/7)</h3>
+                    <div class="task-item">
+                        <input type="checkbox" checked disabled>
+                        <label>Add project details</label>
+                        <button class="open-button" disabled>Open</button>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Provide budget estimate</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Add production schedule</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" checked disabled>
+                        <label>Provide UK FPC requirements</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                </div>
+
+                <div class="task-section">
+                    <h3>Key People (1/3)</h3>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Add producers</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Add Film Director name</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Add story writer name(s)</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                </div>
+
+                <div class="task-section">
+                    <h3>BFI Application (4/7)</h3>
+                    <div class="task-item">
+                        <input type="checkbox" checked disabled>
+                        <label>BFI Points Calculator - Choose points being claimed</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                    <div class="task-item">
+                        <input type="checkbox" disabled>
+                        <label>Provide a detailed synopsis</label>
+                        <span class="open-button">Open</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
